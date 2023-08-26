@@ -2,37 +2,48 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.history {
+  width: 450px;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.unitTransaction {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  height: 50px;
+  background: #fff;
+  border-radius: 5px;
+  margin: 10px auto;
+  border: 1px solid #000;
 }
 
-.App-link {
-  color: #61dafb;
+.addTransaction {
+  width: 450px;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Transaction-form {
+  display: block;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px 100px;
+  margin: 5px auto;
+}
+
+.submitBtn {
+  padding: 5px 160px;
+  background: rgb(12, 81, 138);
+  color: #fff;
+  margin-top: 5px;
+}
+
+.deleteBtn {
+  padding: 0 15px;
+  background: red;
+  color: #fff;
+  margin-top: 5px;
+  border-radius: 4px;
+  margin-left: 200px;
 }
